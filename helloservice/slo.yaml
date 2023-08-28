@@ -19,7 +19,7 @@ objectives:
   - sli: "probe_duration_ms"
     pass:             # pass if probes are faster than 200ms
       - criteria:
-          - "<=200"
+          - "<=2"
 total_score:
   pass: "100%"
   warning: "75%"
